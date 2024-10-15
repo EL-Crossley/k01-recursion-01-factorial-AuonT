@@ -10,5 +10,4 @@ def fact(num):
 
 num = int(input())
 print (fact(num))
-
-#
+#changed name
