@@ -1,6 +1,13 @@
-3# Put your function here
+def fact(num):
+    if (num == 1):
+        return num
+    elif (num > 1):
+        return num*fact(num-1)
+    elif (num == -1):
+        return num
+    else:
+        return num*fact(num+1)
 
-
-# testing
-num = 5
-print(factorial(num))
+num = int(input())
+print (fact(num))
+#changed name
